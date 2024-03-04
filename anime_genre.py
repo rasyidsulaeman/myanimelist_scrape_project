@@ -56,7 +56,7 @@ def get_source(category):
 def write_to_csv(data, genre_name):
     headers = ['Anime Title', 'Year Aired', 'Rating', 'Status', 'Number of Episode', 'Genre', 'Source']
 
-    path = '/Users/macbookair/Documents/myanimelist_scrape_project/data/'
+    path = '/Users/macbookair/Documents/Projects/myanimelist_scrape_project/data/'
     file_name = f'{genre_name}.csv'
     
     if os.path.exists(path + file_name) == False:
